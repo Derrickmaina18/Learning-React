@@ -1,15 +1,23 @@
 .App {
   text-align: center;
 }
-.textp{
-  text-align: center;
-  font-size: 150%;
-}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.spacer{
+  height: 2rem;
+}
+/* .spacer_width{
+  width: 2rem;
+} */
+.card_texts{
+  padding-left: 2rem;
+}
+.card{
+  display: inline-flex;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
